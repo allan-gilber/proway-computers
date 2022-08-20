@@ -1,27 +1,54 @@
-# ProwayComputers
+# ProwayComputers - A webstore for computer hardware
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.3.
+This website was created to exercise basic angular skills and architecture.
 
-## Development server
+## Utilized languages/techonologies:
+<div align="center"}>
+  <img align="center" height="70px" src="https://cdn.worldvectorlogo.com/logos/typescript.svg" />
+  <img align="center" height="70px" src="https://cdn.worldvectorlogo.com/logos/angular-icon-1.svg" />
+  <img align="center" height="70px" src="https://cdn.worldvectorlogo.com/logos/git.svg"/>
+</div>
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Prerequisites:
 
-## Code scaffolding
+To run the project you will need to have installed the following tools: Gitbash, Angular, Typescript and VSCode(or similar IDE).
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## How to run the project with Gitbash:
 
-## Build
+```bash
+# Clone the repository:
+$ git clone https://github.com/allan-gilber/backend-challenge-2022-covid-daily-cases.git
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+# Run gitbash on the folder that was created
+$ cd ./proway-computers
 
-## Running unit tests
+# Install the necessary dependencies with:
+$ npm i
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+# To start the project use the following command:
 
-## Running end-to-end tests
+$ npm start
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+# The site will start on the "localhost:4200/"port.
+```
 
-## Further help
+## List of skills and techonologies used on this project:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- templates
+- components
+- pipes
+- property binding e event binding
+- two-way data binding
+- list rendering
+- services
+- life cycle control
+- element "ngcontent"
+- directives
+- ngContent
+- Angular Router
+- use of path and query params
+- lazy loading
+- route guard
+- utilization of the lib "ReactiveFormsModule"
+- searchbar
+- build e deploy on githubpages
